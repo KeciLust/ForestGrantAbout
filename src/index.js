@@ -1,1 +1,1 @@
-import './htdocs/css/style.css';
+import './htdocs/css/myStyle.css';
