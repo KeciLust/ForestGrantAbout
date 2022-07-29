@@ -57,7 +57,7 @@ body {
     font-size: 14px;
     color: #4B4B4B;
     background-color: #F5F5F5;
-    background-image: url("/src/htdocs/img/lines.svg");
+    background-image: url("/htdocs/img/lines.svg");
     background-size: 1440px;
     background-position: center;
     background-repeat: repeat-y;
@@ -65,7 +65,7 @@ body {
     line-height: 1.2;
 }
 .bg_lines {
-    background-image: url("/src/htdocs/img/lines.svg");
+    background-image: url("/htdocs/img/lines.svg");
     background-size: 90%;
     background-position: center;
     background-repeat: repeat-y;
@@ -138,7 +138,7 @@ img{
 .pattern_line {
     height: 51px;
     width: 100%;
-    background: url("/src/htdocs/img/pattern.svg") repeat-x left center;
+    background: url("/htdocs/img/pattern.svg") repeat-x left center;
 }
 .pattern_line.gray {
     background-color: #EFEFEF;
@@ -447,7 +447,7 @@ header .btn_menu::after {
     content: '';
     width: 12px;
     height: 8px;
-    background: url("/src/htdocs/img/icons/btn_down.svg") no-repeat center;
+    background: url("/htdocs/img/icons/btn_down.svg") no-repeat center;
     top: 50%;
     right: 36px;
     transform: translate(0, -50%);
@@ -493,13 +493,13 @@ header .btn_burger {
     width: 56px;
     height: 48px;
     padding: 12px 16px;
-    background: #2A6A6F url("/src/htdocs/img/icons/burger.svg") no-repeat center;
+    background: #2A6A6F url("/htdocs/img/icons/burger.svg") no-repeat center;
     border-radius: 12px;
     margin-left: 31px;
 }
 header .btn_burger.open {
     background-color: #579397;
-    background-image: url("/src/htdocs/img/icons/burger_close.svg");
+    background-image: url("/htdocs/img/icons/burger_close.svg");
 }
 header .menu {
     position: absolute;
@@ -535,7 +535,7 @@ header .menu_item_title {
 }
 header .menu_sublist_open {
     content: '';
-    background: url("/src/htdocs/img/icons/menu_arrow.svg") no-repeat center;
+    background: url("/htdocs/img/icons/menu_arrow.svg") no-repeat center;
     width: 24px;
     height: 24px;
     position: absolute;
@@ -560,7 +560,7 @@ header .menu_block_link {
 }
 header .menu_block_title_open {
     content: '';
-    background: url("/src/htdocs/img/icons/menu_arrow_green.svg") no-repeat center;
+    background: url("/htdocs/img/icons/menu_arrow_green.svg") no-repeat center;
     width: 24px;
     height: 24px;
     position: absolute;
@@ -775,7 +775,7 @@ footer .footer_bottom a:hover {
 
 /* content */
 .index_top {
-    background: url("/src/htdocs/img/content/index/top_bg.svg") no-repeat bottom left;
+    background: url("/htdocs/img/content/index/top_bg.svg") no-repeat bottom left;
 }
 .index_top .container {
     display: flex;
@@ -1056,7 +1056,7 @@ footer .footer_bottom a:hover {
     right: 0;
     width: 50px;
     height: 276px;
-    background: url("/src/htdocs/img/icons/image_pattern.svg") repeat-y right top;
+    background: url("/htdocs/img/icons/image_pattern.svg") repeat-y right top;
 }
 .about_box .text {
     font-weight: 400;
@@ -1450,7 +1450,7 @@ footer .footer_bottom a:hover {
     left: 0;
     height: 100%;
     width: calc(50% - 290px);
-    background: #2A6A6F url("/src/htdocs/img/feedback_bg.svg") no-repeat left bottom;
+    background: #2A6A6F url("/htdocs/img/feedback_bg.svg") no-repeat left bottom;
     border-radius: 0px 20px 0px 0px;
 }
 .feedback .container {
@@ -1559,7 +1559,7 @@ footer .footer_bottom a:hover {
 }
 .catalog_top {
     overflow: hidden;
-    background: url("/src/htdocs/img/arrows_bg.svg") no-repeat bottom left;
+    background: url("/htdocs/img/arrows_bg.svg") no-repeat bottom left;
 }
 .catalog_top .container {
     display: flex;
@@ -1851,18 +1851,18 @@ footer .footer_bottom a:hover {
     margin-bottom: 60px;
 }
 .catalog_baform.quadro {
-    background: #2A6A6F url("/src/htdocs/img/content/baform/quadro.svg") no-repeat center;
+    background: #2A6A6F url("/htdocs/img/content/baform/quadro.svg") no-repeat center;
     background-size: cover;
 }
 .catalog_baform.circle::before {
-    content: url("/src/htdocs/img/content/baform/before.svg");
+    content: url("/htdocs/img/content/baform/before.svg");
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 1;
 }
 .catalog_baform.circle::after {
-    content: url("/src/htdocs/img/content/baform/after.svg");
+    content: url("/htdocs/img/content/baform/after.svg");
     position: absolute;
     top: 0;
     right: 0;
@@ -1921,7 +1921,7 @@ footer .footer_bottom a:hover {
     margin-bottom: 36px;
 }
 .free_item::before {
-    content: url("/src/htdocs/img/icons/free_li.svg");
+    content: url("/htdocs/img/icons/free_li.svg");
     position: absolute;
     left: 0;
     top: 0;
@@ -2041,14 +2041,14 @@ footer .footer_bottom a:hover {
     font-size: 18px;
     line-height: 160%;
     color: #4B4B4B;
-    background: rgba(255, 255, 255, 0.9) url("/src/htdocs/img/blockquote_bg.svg") no-repeat right center;
+    background: rgba(255, 255, 255, 0.9) url("/htdocs/img/blockquote_bg.svg") no-repeat right center;
     border-radius: 12px;
 }
 .cattext .image blockquote::before {
     content:'';
     width: 60px;
     height: 41px;
-    background: url("/src/htdocs/img/icons/blockquote.svg") no-repeat top left;
+    background: url("/htdocs/img/icons/blockquote.svg") no-repeat top left;
     background-size: contain;
     position: absolute;
     top: 36px;
@@ -2063,7 +2063,7 @@ footer .footer_bottom a:hover {
 .options_block {
     padding: 80px 0;
     min-height: 293px;
-    background: url("/src/htdocs/img/content/catalog/options_bg.png") no-repeat top;
+    background: url("/htdocs/img/content/catalog/options_bg.png") no-repeat top;
     background-size: cover;
 }
 .subcat_filter {
