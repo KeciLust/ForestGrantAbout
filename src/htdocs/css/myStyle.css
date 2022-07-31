@@ -1,3 +1,277 @@
-.myBanner {
+.bannerMy {
+    background-image: url('/htdocs/img/imgMyWork/Rectangle\ 179.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 36vw;
+}
+
+.bannerBox {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-top: calc(5.7vw - 60px);
+}
+
+.bannerFrame {
+    width: 34%;
+
+}
+
+.bannerBg {
+    width: 23%;
+}
+
+.h2My::before {
+    content: '';
+    border-left: 3px solid rgba(255, 142, 124, 1);
+    height: 43px;
+    margin-right: 36px;
+}
+
+.h2My {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 80px;
+    color: rgba(75, 75, 75, 1);
+}
+
+.h3My {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 13px;
+}
+
+.advantages {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 0;
+}
+
+.advantagesBox {
+    margin-left: 36px;
+    margin-top: 51px;
+    color: rgba(75, 75, 75, 1);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.mainItemMy {
+    width: 30%;
+    line-height: 28px;
+    margin-right: 86px;
+}
+
+.mainItemLogoMy {
+    font-size: 128px;
+    line-height: 128px;
+    font-weight: 400;
+}
+
+.mainItemLogoMy::before {
+    content: '';
+    width: 80px;
+    height: 4vw;
+    background-color: rgba(255, 142, 124);
+    border-radius: 12px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: rgba(75, 75, 75);
+}
+
+.item {
+    width: 45%;
+    display: flex;
+
+}
+
+.item-m {
     margin-bottom: 50px;
+}
+
+.itemImg {
+    margin-right: 24px;
+}
+.timeLine {
+    background: rgba(239, 239, 239);
+}
+.timeLineImg {
+    margin-top: 37px;
+    margin-bottom: 80px;
+}
+.manufactoring {
+    background: rgba(245, 245, 245);
+    color: rgba(75, 75, 75);
+}
+
+.manufBox {
+    margin-top: 37px;
+    display: flex;
+}
+
+.manufImg1 {
+    width: 48.5vw;
+    margin-right: 36px;
+}
+
+.manufTextBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.manufText {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.manuf-m {
+    margin-bottom: 20px;
+}
+
+.manufBox2 {
+    display: flex;
+    margin-top: 36px;
+    margin-bottom: 80px;
+}
+
+.manufTextH3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(75, 75, 75);
+    margin-bottom: 16px;
+}
+
+.manufTextBox2 {
+    margin-right: 36px;
+}
+
+.manufLi {
+    line-height: 26px;
+    font-size: 16px;
+    color: rgba(135, 135, 135);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.manufLi::before {
+    content: '';
+    border-top: 3px solid rgba(255, 142, 124, 1);
+    width: 1.25vw;
+    margin-right: 12px;
+}
+.manufBtn {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border-radius: 12px;
+    background: rgba(255, 142, 124, 1);
+    width: 17vw;
+    height: 5vw;
+    margin-top: 36px;
+}
+.manufBtn:hover {
+    background: rgb(253, 106, 83);
+}
+.stepsMy {
+    background: rgba(239, 239, 239);
+}
+
+.stepsBoxItems {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-top: 37px;
+    margin-bottom: 16px;
+}
+
+.stepsItem {
+    width: 4vw;
+    height: 4vw;
+    background: rgba(42, 106, 111, 1);
+    border-radius: 12px;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stepsItemsLine {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.stepsItemsLine::after {
+    content: '';
+    border-top: 3px solid rgba(135, 135, 135, 1);
+    width: 5vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+.stepsItemsText {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-bottom: 80px;
+}
+
+.stepsItemText {
+    width: 11.3vw;
+}
+
+.advantage-2 {
+    background: rgba(245, 245, 245, 1);
+}
+
+.advantage-2BoxMy {
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantage-2Img {
+    margin: 20px;
+    width: 13vw;
+}
+
+.partnersMy {
+    background: rgba(239, 239, 239, 1);
+}
+
+.partnersBoxMy {
+    margin-top: 67px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.partnersImgMy {
+    width: 9vw;
+    margin-bottom: 85px;
+}
+
+.partners-mr {
+    margin-right: 8vw;
 }
