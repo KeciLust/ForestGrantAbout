@@ -1,5 +1,5 @@
 .bannerMy {
-    background-image: url('/htdocs/img/imgMyWork/Rectangle\ 179.png');
+    background-image: url("/src/htdocs/img/imgMyWork/Rectangle.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -99,13 +99,16 @@
 .itemImg {
     margin-right: 24px;
 }
+
 .timeLine {
     background: rgba(239, 239, 239);
 }
+
 .timeLineImg {
     margin-top: 37px;
     margin-bottom: 80px;
 }
+
 .manufactoring {
     background: rgba(245, 245, 245);
     color: rgba(75, 75, 75);
@@ -171,6 +174,7 @@
     width: 1.25vw;
     margin-right: 12px;
 }
+
 .manufBtn {
     font-size: 14px;
     font-weight: 700;
@@ -181,9 +185,11 @@
     height: 5vw;
     margin-top: 36px;
 }
+
 .manufBtn:hover {
     background: rgb(253, 106, 83);
 }
+
 .stepsMy {
     background: rgba(239, 239, 239);
 }
